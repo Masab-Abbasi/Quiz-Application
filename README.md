@@ -72,13 +72,17 @@ A **console-based** Java Quiz Game developed as a Programming Fundamentals unive
 | `registerUser()`      | Handles user registration and duplicate checks |
 | `loginUser()`         | Verifies user credentials for login |
 | `adminLogin()`        | Verifies admin credentials |
+| `showUserQuizMenu()`        | Shows User Menu |
+| `showAdminQuizMenu()`        | Shows Admin Menu |
+| `subjects()`        | Shows a list of Subjects Available |
+| `startQuix()`        | Gets Difficulty from the user & then Accordingly Load Quiz Files |
 | `takeQuiz()`          | Loads quiz questions and handles user interaction |
-| `setTimer()`          | Sets quiz timer based on selected difficulty |
-| `calculateScore()`    | Evaluates answers and calculates score |
+| `isStrong()`          | Checks for Password Strength |
 | `viewResults()`       | Displays stored quiz results |
-| `addQuizSubject()`    | Allows admin to add a new quiz subject |
-| `editQuizFile()`      | Enables admin to update existing questions |
-| `deleteSubject()`     | Removes quiz subject file from system |
+| `viewAllResults()`       | Displays all stored quiz results (only allowed to Admin) |
+| `addQuiz()`    | Allows admin to add a new quiz subject |
+| `editQuiz()`      | Enables admin to update existing questions |
+| `deleteQuiz()`     | Removes quiz subject file from system |
 
 ---
 
